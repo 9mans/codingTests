@@ -6,14 +6,5 @@ public class Main {
         // 1
         Solution solution = new Solution();
         System.out.println(solution.solution(3, 3));
-
-
-
-
-
-
-
-
-
     }
 }
