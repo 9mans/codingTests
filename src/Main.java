@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -6,5 +9,6 @@ public class Main {
         // 1
         Solution solution = new Solution();
         System.out.println(solution.solution(3, 3));
+
     }
 }
