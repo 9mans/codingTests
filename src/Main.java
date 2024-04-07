@@ -6,9 +6,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        // 1
-        Solution solution = new Solution();
-        System.out.println(solution.solution(3, 3));
+        int[] arr = {1, 2, 3, 4, 5};
 
+        Solution4 solution4 = new Solution4();
+        solution4.solution(arr);
     }
 }
