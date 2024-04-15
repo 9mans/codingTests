@@ -1,13 +1,14 @@
-class Solution5 {
-    public int solution(int[] array, int n) {
+public class Solution6 {
+
+    public int solution(int[] array, int height) {
         int answer = 0;
 
         for (int i = 0; i < array.length; i++) {
 
-            if (array[i] == n) {
-
+            if (height < array[i]) {
                 answer++;
             }
+
         }
         return answer;
     }
