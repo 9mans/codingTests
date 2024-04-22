@@ -10,5 +10,17 @@ public class Main {
 
         Solution4 solution4 = new Solution4();
         solution4.solution(arr);
+
+
+        Solution8 solution8 = new Solution8();
+        solution8.solution(10);
+
+
+
     }
+
+
+
+
+
 }
