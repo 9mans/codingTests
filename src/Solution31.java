@@ -8,7 +8,7 @@ public class Solution31 {
 
         for (String v : a) {
 
-            answer = answer.replaceAll("v", "");
+            answer = answer.replaceAll(v, "");
         }
 
         return answer;
